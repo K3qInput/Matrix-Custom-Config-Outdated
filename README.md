@@ -1,4 +1,4 @@
-/*
+
 ██╗  ██╗   ██╗   ██████╗    ██████╗ 
 ██║ ██╔╝   ██║   ██╔══██╗  ██╔═══██╗
 █████╔╝    ██║   ██████╔╝  ██║   ██║
@@ -8,9 +8,6 @@
 
      Advance Matrix Anti-Cheat Config
          Author: kiro.java | v2.8
-*/
-
-/*
 
 Faster Detection  
 Better Accuracy  
