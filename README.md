@@ -1,42 +1,96 @@
-**Matrix Anti-Cheat Configuration File**
-=====================================
+/*
+██╗  ██╗   ██╗   ██████╗    ██████╗ 
+██║ ██╔╝   ██║   ██╔══██╗  ██╔═══██╗
+█████╔╝    ██║   ██████╔╝  ██║   ██║
+██╔═██╗    ██║   ██╔═══██╗ ██║   ██║
+██║  ██╗   ██║   ██║   ██║ ╚██████╔╝
+╚═╝  ╚═╝   ╚═╝   ╚═╝   ╚═╝  ╚═════╝ 
 
-**Overview**
------------
+     Advance Matrix Anti-Cheat Config
+         Author: kiro.java | v2.8
+*/
 
-This is a comprehensive configuration file for the Matrix anti-cheat system, designed to detect and prevent various types of cheating in Minecraft servers. The file includes settings for multiple checks, including KillAura, HitBox, Click, Movement Speed, BadPackets, Delay, Block, Scaffold, Jesus, Velocity, Spam, Interact, Phase, AutoBot, Elytra, and Vehicle.
+/*
 
-**Changes and Improvements**
----------------------------
+Faster Detection  
+Better Accuracy  
+More Precision  
+Proper Punishment System  
 
-* **Updated check modules**: The configuration file includes the latest check modules, ensuring that the anti-cheat system can detect a wide range of cheating techniques.
-* **Customizable settings**: Many settings can be customized to fit the specific needs of your server, including violation thresholds, decay intervals, and command triggers.
-* **Improved performance**: The configuration file is optimized for performance, reducing the risk of false positives and minimizing the impact on server resources.
-* **Enhanced security**: The file includes additional security measures to prevent cheating, such as stricter interaction checks and improved velocity detection.
+*/
 
-**Configuration Options**
--------------------------
+# Matrix Anti-Cheat Configuration File
 
-The configuration file includes the following options:
+## Overview
 
-* **Enable/Disable checks**: Enable or disable individual checks to customize the anti-cheat system to your server's needs.
-* **Violation thresholds**: Set the number of violations required to trigger a command or penalty.
-* **Decay intervals**: Configure the time interval for violation level decay.
-* **Command triggers**: Define custom commands to trigger when a player reaches a certain violation level.
-* **Check modules**: Customize the settings for individual check modules, such as KillAura, HitBox, and Velocity.
+This is a comprehensive configuration file for the Matrix Anti-Cheat system, designed to detect and prevent various types of cheating in Minecraft servers.
 
-**Installation**
---------------
+It includes settings for modules such as:
 
-To use this configuration file, simply download and place it in your Matrix anti-cheat installation directory. Make sure to review and customize the settings to fit your server's specific needs.
+- KillAura  
+- HitBox  
+- Click  
+- Movement Speed  
+- BadPackets  
+- Delay  
+- Block  
+- Scaffold  
+- Jesus  
+- Velocity  
+- Spam  
+- Interact  
+- Phase  
+- AutoBot  
+- Elytra  
+- Vehicle  
 
-**License**
--------
+## Changes and Improvements
 
-This configuration file is licensed under the MIT License. You are free to use, modify, and distribute this file as needed.
+- Updated check modules  
+  Latest improvements to detect modern cheating techniques.
 
-**Contributing**
-If you'd like to contribute to this configuration file or report any issues, please open a pull request or issue on this GitHub repository.
+- Customizable settings  
+  Tune thresholds, intervals, and triggers to your server’s needs.
 
-**Acknowledgments**
-Special thanks to the Matrix anti-cheat development team for creating this powerful anti-cheat system.
+- Improved performance  
+  Optimized to reduce false positives and minimize resource usage.
+
+- Enhanced security  
+  Includes stricter detection for interaction, velocity, and movement anomalies.
+
+## Configuration Options
+
+- Enable/Disable checks  
+  Toggle checks individually to suit your setup.
+
+- Violation thresholds  
+  Define how many infractions trigger actions.
+
+- Decay intervals  
+  Set time-based decay for violation levels.
+
+- Command triggers  
+  Fire custom commands on specific violation levels.
+
+- Check module tuning  
+  Modify parameters for checks like KillAura, HitBox, and Velocity.
+
+## Installation
+
+1. Download the `checks.yml`,`language.yml`,`config.yml` file.  
+2. Place it in your Matrix Anti-Cheat plugin directory.  
+3. Restart or reload your server.  
+4. Customize as needed.
+
+## License
+
+Licensed under MIT License
+
+## Contributing
+
+Want to improve or report an issue?  
+Open a pull request or issue on the GitHub repo.
+
+## Acknowledgments
+
+Thanks to the Matrix Anti-Cheat development team for creating this powerful Anti-Cheat
