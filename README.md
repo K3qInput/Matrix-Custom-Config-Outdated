@@ -1,12 +1,3 @@
-Advance Matrix Anti-Cheat Config
-Author: kiro.java | v2.8
-
-Faster Detection  
-Better Accuracy  
-More Precision  
-Proper Punishment System  
-
-
 # Matrix Anti-Cheat Configuration File
 
 ## Overview
